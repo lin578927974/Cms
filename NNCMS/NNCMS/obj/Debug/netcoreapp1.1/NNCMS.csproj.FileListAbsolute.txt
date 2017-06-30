@@ -1,0 +1,9 @@
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp1.1\NNCMS.deps.json
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp1.1\NNCMS.runtimeconfig.json
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp1.1\NNCMS.runtimeconfig.dev.json
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp1.1\NNCMS.dll
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp1.1\NNCMS.pdb
+E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp1.1\NNCMS.csprojResolveAssemblyReference.cache
+E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp1.1\NNCMS.AssemblyInfo.cs
+E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp1.1\NNCMS.dll
+E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp1.1\NNCMS.pdb
