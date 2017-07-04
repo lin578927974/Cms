@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using NNCMS.Model.Models;
 
 namespace NNCMS
 {
@@ -29,6 +31,9 @@ namespace NNCMS
         {
             // Add framework services.
             services.AddMvc();
+
+            var connection = @"Server=.;Database=dtCms;Trusted_Connection=True;";
+            services.AddDbContext<dtCmsContext>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

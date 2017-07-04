@@ -1,0 +1,12 @@
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp1.1\UnitTestNNCMS.deps.json
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp1.1\UnitTestNNCMS.runtimeconfig.json
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp1.1\UnitTestNNCMS.runtimeconfig.dev.json
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp1.1\UnitTestNNCMS.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp1.1\UnitTestNNCMS.pdb
+E:\Cms\NNCMS\UnitTestNNCMS\obj\Debug\netcoreapp1.1\UnitTestNNCMS.csprojResolveAssemblyReference.cache
+E:\Cms\NNCMS\UnitTestNNCMS\obj\Debug\netcoreapp1.1\UnitTestNNCMS.AssemblyInfo.cs
+E:\Cms\NNCMS\UnitTestNNCMS\obj\Debug\netcoreapp1.1\UnitTestNNCMS.dll
+E:\Cms\NNCMS\UnitTestNNCMS\obj\Debug\netcoreapp1.1\UnitTestNNCMS.pdb

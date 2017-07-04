@@ -7,3 +7,5 @@ E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp1.1\NNCMS.csprojResolveAssemblyReference.
 E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp1.1\NNCMS.AssemblyInfo.cs
 E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp1.1\NNCMS.dll
 E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp1.1\NNCMS.pdb
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp1.1\NNCMS.Model.dll
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp1.1\NNCMS.Model.pdb
