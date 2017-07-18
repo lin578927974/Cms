@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using NNCMS.Model.Models;
+using NNCMS.Core;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace NNCMS
 {
@@ -31,6 +30,7 @@ namespace NNCMS
         {
             // Add framework services.
             services.AddMvc();
+            services.AddAuthorization();
 
             var connection = @"Server=.;Database=dtCms;Trusted_Connection=True;";
             services.AddDbContext<dtCmsContext>(options => options.UseSqlServer(connection));
@@ -43,6 +43,21 @@ namespace NNCMS
             loggerFactory.AddDebug();
 
             app.UseMvc();
+
+            app.UseJwtBearerAuthentication(new JwtBearerOptions
+            {
+                AutomaticAuthenticate = true,
+                AutomaticChallenge = true,
+                TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters {
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SB")),
+                    ValidAudience="ale",
+                    ValidateIssuerSigningKey=true,
+                    ValidateLifetime=true,
+                    ValidIssuer="ale"
+                }
+            });
+
+            //AuthenticationApi.ConfigureAuth(app);
         }
     }
 }

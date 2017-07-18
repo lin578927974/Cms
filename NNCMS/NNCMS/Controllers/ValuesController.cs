@@ -34,6 +34,7 @@ namespace NNCMS.Controllers
         [HttpPost]
         public void Post([FromBody]string value)
         {
+            var a = value;
         }
 
         // PUT api/values/5
