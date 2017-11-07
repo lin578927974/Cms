@@ -1,0 +1,13 @@
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp2.0\NNCMS.deps.json
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp2.0\NNCMS.runtimeconfig.json
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp2.0\NNCMS.runtimeconfig.dev.json
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp2.0\NNCMS.dll
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp2.0\NNCMS.pdb
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp2.0\NNCMS.Model.dll
+E:\Cms\NNCMS\NNCMS\bin\Debug\netcoreapp2.0\NNCMS.Model.pdb
+E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp2.0\NNCMS.csprojResolveAssemblyReference.cache
+E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp2.0\NNCMS.csproj.CoreCompileInputs.cache
+E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp2.0\NNCMS.AssemblyInfoInputs.cache
+E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp2.0\NNCMS.AssemblyInfo.cs
+E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp2.0\NNCMS.dll
+E:\Cms\NNCMS\NNCMS\obj\Debug\netcoreapp2.0\NNCMS.pdb

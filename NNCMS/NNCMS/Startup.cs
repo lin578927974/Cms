@@ -44,19 +44,6 @@ namespace NNCMS
 
             app.UseMvc();
 
-            app.UseJwtBearerAuthentication(new JwtBearerOptions
-            {
-                AutomaticAuthenticate = true,
-                AutomaticChallenge = true,
-                TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters {
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SB")),
-                    ValidAudience="ale",
-                    ValidateIssuerSigningKey=true,
-                    ValidateLifetime=true,
-                    ValidIssuer="ale"
-                }
-            });
-
             //AuthenticationApi.ConfigureAuth(app);
         }
     }

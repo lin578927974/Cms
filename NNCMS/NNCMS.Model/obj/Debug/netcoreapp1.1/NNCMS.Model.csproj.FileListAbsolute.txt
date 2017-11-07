@@ -5,3 +5,5 @@ E:\Cms\NNCMS\NNCMS.Model\obj\Debug\netcoreapp1.1\NNCMS.Model.csprojResolveAssemb
 E:\Cms\NNCMS\NNCMS.Model\bin\Debug\netcoreapp1.1\NNCMS.Model.pdb
 E:\Cms\NNCMS\NNCMS.Model\obj\Debug\netcoreapp1.1\NNCMS.Model.dll
 E:\Cms\NNCMS\NNCMS.Model\obj\Debug\netcoreapp1.1\NNCMS.Model.pdb
+E:\Cms\NNCMS\NNCMS.Model\obj\Debug\netcoreapp1.1\NNCMS.Model.csproj.CoreCompileInputs.cache
+E:\Cms\NNCMS\NNCMS.Model\obj\Debug\netcoreapp1.1\NNCMS.Model.AssemblyInfoInputs.cache
