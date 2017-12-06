@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -6,31 +7,41 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using NNCMS.Model.Models;
 using NNCMS.Core;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 
 namespace NNCMS
 {
     public class Startup
     {
-        public Startup(IHostingEnvironment env)
+        public Startup(IConfiguration configuration)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
-                .AddEnvironmentVariables();
-            Configuration = builder.Build();
+            Configuration = configuration;
         }
 
-        public IConfigurationRoot Configuration { get; }
+        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //authentication
+            services.AddIdentityServer()
+                .AddDeveloperSigningCredential()
+                .AddInMemoryApiResources(AuthenticationConfig.GetApiResources())
+                .AddInMemoryClients(AuthenticationConfig.GetClients());
+
+            services.AddMvcCore()
+                .AddAuthorization()
+                .AddJsonFormatters();
+
+            services.AddAuthentication("Bearer")
+                .AddIdentityServerAuthentication(options =>
+                {
+                    options.Authority = "http://localhost:17167/";
+                    options.RequireHttpsMetadata = false;
+                    options.ApiName = "api";
+                });
+
             // Add framework services.
             services.AddMvc();
-            services.AddAuthorization();
 
             var connection = @"Server=.;Database=dtCms;Trusted_Connection=True;";
             services.AddDbContext<dtCmsContext>(options => options.UseSqlServer(connection));
@@ -42,9 +53,11 @@ namespace NNCMS
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            app.UseMvc();
+            //use authentication
+            app.UseIdentityServer();
+            app.UseAuthentication();
 
-            //AuthenticationApi.ConfigureAuth(app);
+            app.UseMvc();
         }
     }
 }
