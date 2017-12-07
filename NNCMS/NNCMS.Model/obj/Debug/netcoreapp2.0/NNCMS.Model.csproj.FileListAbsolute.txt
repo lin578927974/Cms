@@ -6,3 +6,4 @@ E:\Cms\NNCMS\NNCMS.Model\obj\Debug\netcoreapp2.0\NNCMS.Model.AssemblyInfoInputs.
 E:\Cms\NNCMS\NNCMS.Model\obj\Debug\netcoreapp2.0\NNCMS.Model.AssemblyInfo.cs
 E:\Cms\NNCMS\NNCMS.Model\obj\Debug\netcoreapp2.0\NNCMS.Model.dll
 E:\Cms\NNCMS\NNCMS.Model\obj\Debug\netcoreapp2.0\NNCMS.Model.pdb
+E:\Cms\NNCMS\NNCMS.Model\obj\Debug\netcoreapp2.0\NNCMS.Model.csprojResolveAssemblyReference.cache
