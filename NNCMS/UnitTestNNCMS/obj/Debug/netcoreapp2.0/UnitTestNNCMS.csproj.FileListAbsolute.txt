@@ -1,0 +1,17 @@
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\UnitTestNNCMS.deps.json
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\UnitTestNNCMS.runtimeconfig.json
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\UnitTestNNCMS.runtimeconfig.dev.json
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\UnitTestNNCMS.dll
+E:\Cms\NNCMS\UnitTestNNCMS\bin\Debug\netcoreapp2.0\UnitTestNNCMS.pdb
+E:\Cms\NNCMS\UnitTestNNCMS\obj\Debug\netcoreapp2.0\UnitTestNNCMS.csprojResolveAssemblyReference.cache
+E:\Cms\NNCMS\UnitTestNNCMS\obj\Debug\netcoreapp2.0\UnitTestNNCMS.csproj.CoreCompileInputs.cache
+E:\Cms\NNCMS\UnitTestNNCMS\obj\Debug\netcoreapp2.0\UnitTestNNCMS.AssemblyInfoInputs.cache
+E:\Cms\NNCMS\UnitTestNNCMS\obj\Debug\netcoreapp2.0\UnitTestNNCMS.AssemblyInfo.cs
+E:\Cms\NNCMS\UnitTestNNCMS\obj\Debug\netcoreapp2.0\UnitTestNNCMS.dll
+E:\Cms\NNCMS\UnitTestNNCMS\obj\Debug\netcoreapp2.0\UnitTestNNCMS.pdb
