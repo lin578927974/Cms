@@ -12,7 +12,6 @@ using Microsoft.AspNetCore.Authorization;
 namespace NNCMS.Controllers
 {
     [Route("user")]
-    [Authorize]
     public class AccountApiController : Controller
     {
         [HttpGet]

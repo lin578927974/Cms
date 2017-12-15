@@ -10585,9 +10585,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Cms\\NNCMS\\NNCMS\\NNCMS.csproj",
-      "projectName": "NNCMS",
-      "projectPath": "E:\\Cms\\NNCMS\\NNCMS\\NNCMS.csproj",
+      "projectUniqueName": "E:\\Cms\\NNCMS\\NNCMS\\NNCMS.Api.csproj",
+      "projectName": "NNCMS.Api",
+      "projectPath": "E:\\Cms\\NNCMS\\NNCMS\\NNCMS.Api.csproj",
       "packagesPath": "C:\\Users\\JL\\.nuget\\packages\\",
       "outputPath": "E:\\Cms\\NNCMS\\NNCMS\\obj\\",
       "projectStyle": "PackageReference",
